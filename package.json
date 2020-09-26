@@ -1,8 +1,8 @@
 {
-  "name": "@windedge/gatsby-tailwind-serif",
-  "description": "Gatsby starter styled with Tailwind",
+  "name": "rnr-interiors-ui",
+  "description": "RNR Interiors UI",
   "version": "1.0.0",
-  "author": "@windedge",
+  "author": "saikishoret99@gmail.com",
   "dependencies": {
     "classnames": "^2.2.6",
     "gatsby": "2.21.21",
@@ -23,10 +23,7 @@
     "react-helmet": "6.0.0"
   },
   "keywords": [
-    "gatsby",
-    "tailwind",
-    "tailwindcss",
-    "purgecss"
+    "RNR interiors"
   ],
   "license": "MIT",
   "scripts": {
@@ -54,13 +51,6 @@
     "prettier": "2.0.5",
     "tailwindcss": "1.4.6",
     "tailwindcss-transforms": "^2.1.0"
-  },
-  "Repository": {
-    "type": "git",
-    "url": "https://github.com/windedge/gatsby-tailwind-serif"
-  },
-  "bugs": {
-    "url": "https://github.com/windedge/gatsby-tailwind-serif/issues"
   },
   "publishConfig": {
     "access": "public"

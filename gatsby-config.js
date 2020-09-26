@@ -1,21 +1,34 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Tailwind Serif`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@windedge`
+    title: `RNR Interiors`,
+    description: `RNR Interiors. You dream it... We make it. Experts in end to end quality home interiors and renovations.
+    We help you in building your dream house with the help of qualified professionals and experts.`,
+    author: `Kishore`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-tailwind--serif`,
-        short_name: `serif`,
+        name: `RNR Interiors`,
+        short_name: `RNR Interiors`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
         display: `minimal-ui`,
-        icon: `static/favicon.png`
+        icon: `static/favicon.ico`,
+        icons: [
+          {
+            src: `static/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `stacic/android-chrome-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+        ],
       }
     },
     {
