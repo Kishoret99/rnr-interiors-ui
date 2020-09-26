@@ -49,19 +49,18 @@ const Team = ({data}) => {
             Meet The Team
           </h1>
           <p className="text-base">
-            Our team of qualified accountants and financial consultants can help
-            your business at any stage of it’s growth.
+            Our team of experts and qualified professionals
           </p>
         </div>
 
         <div className="flex flex-wrap mt-10 md:mt-16 lg:mt-24">
           {members.map(({node}) => {
-            const {title, jobtitle, email, linkedinurl, image, path} = node.frontmatter
+            const {title, jobtitle, email, url, image, path} = node.frontmatter
             return (
             <Profile
               name={title}
               title={jobtitle}
-              url={linkedinurl}
+              url={url}
               email={email}
               image={withPrefix(image)}
               key={path}
@@ -87,7 +86,7 @@ export const query = graphql`
             title
             jobtitle
             email
-            linkedinurl
+            url
             image
             path
           }

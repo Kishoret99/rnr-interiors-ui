@@ -21,13 +21,13 @@ const Contact = () => {
           }}
         >
           <p>
-            <strong>Phone:</strong> XXX XXX XXX
+            <strong>Phone:</strong> +91 9030630888, +91 9505560847
           </p>
           <p>
-            <strong>Email: </strong>xxx@xxx.com
+            <strong>Email: </strong>rnrinteriorspvt.ltd@gmail.com
           </p>
         </div>
-        <div className="w-full">
+        {/* <div className="w-full">
           <h3 className="mt-10 text-2xl">Business Hours</h3>
           <table className="w-full md:w-3/4 text-left w-full border-collapse">
             <tbody>
@@ -75,7 +75,7 @@ const Contact = () => {
               </tr>
             </tbody>
           </table>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );

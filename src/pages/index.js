@@ -1,6 +1,6 @@
 import React from "react";
 import cx from "classnames";
-import home from "../images/undraw_taking_notes_tjaf.svg";
+import home from "../images/house_restyling_bro.svg";
 import branding from "../images/noun_branding_1885335.svg";
 import processing from "../images/noun_The Process_1885341.svg";
 import modeling from "../images/noun_3d modeling_1885342.svg";
@@ -42,21 +42,20 @@ function Index({ data }) {
     <Layout headerClass="relative bg-white">
       <SEO title="Home" />
       <div
-        className="min-h-screen pt-24 sm:pt-32 md:pt-64 -mt-12 sm:-mt-16 md:-mt-24 lg:-mt-28 mb-20 bg-size-5/6 md:bg-size-4/5 lg:bg-size-2/3 bg-right-top bg-no-repeat flex flex-col items-center"
-        style={{ backgroundImage: `url(${home})` }}
+        className="min-h-screen pt-8 sm:pt-20 md:pt-28 xl:pt-48 -mt-12 sm:-mt-16 md:-mt-24 lg:-mt-20 mb-20 bg-size-5/6 md:bg-size-4/5 lg:bg-size-2/3 bg-right-top bg-no-repeat flex flex-col items-center"
+        style={{ backgroundImage: `url(${home})`, backgroundPosition: '120% 10%', backgroundSize: '50%' }}
       >
-        <div className="w-4/5 md:w-3/4 lg:w-7/12 mt-20 font-serif font-hairline self-start">
+        <div className="w-3/5 md:w-2/4 lg:w-7/12 mt-20 font-serif font-hairline self-start">
           <h1 className="text-3xl md:text-5xl text-indigo-700 leading-tight">
-            Serif - Gatsby Small Business Theme.
+            You dream it... We make it.
           </h1>
           <p className="text-base">
-            Multiple content types using Markdown and JSON sources. Responsive
-            design and SCSS. This is a beautiful and artfully designed starting
-            theme.
+            Experts in end to end quality home interiors and renovations.
+            We help you in building your dream house with the help of qualified professionals and experts.
           </p>
         </div>
 
-        <div className="container w-3/4 sm:w-7/12 lg:w-5/12 xl:1/4 mt-10 self-start">
+        <div className="container w-4/4 sm:w-7/12 lg:w-5/12 xl:1/4 mt-10 self-start">
           <div
             className="bg-white rounded flex flex-col sm:flex-row items-start sm:items-center text-sm p-4"
             style={{
@@ -67,11 +66,11 @@ function Index({ data }) {
             <div className="flex-1">
               <p>
                 <strong>Phone: </strong>
-                XXX XXX XXX
+                +91 9030630888
               </p>
               <p>
                 <strong>Email: </strong>
-                xxx@xxx.com
+                rnrinteriorspvt.ltd@gmail.com
               </p>
             </div>
             <div className="flex-initial mt-6 sm:mt-0">
@@ -117,8 +116,8 @@ function Index({ data }) {
                 <div className="w-16 h-16 mb-4">
                   <img alt="branding" src={branding} />
                 </div>
-                <p className="text-2xl w-full">Free Consultation</p>
-                <p>New clients recieve an obligation free consultation.</p>
+                <p className="text-2xl w-full">Certified Professionals</p>
+                <p>All members of our team are certified professionals and experts.</p>
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 mt-2">
@@ -126,8 +125,8 @@ function Index({ data }) {
                 <div className="w-16 h-16 mb-4">
                   <img alt="processing" src={processing} />
                 </div>
-                <p className="text-2xl w-full">Certified Accountants</p>
-                <p>All members of our team are certified accountants.</p>
+                <p className="text-2xl w-full">Serving in</p>
+                <p>Currently we serve in <strong>Hyderabad, Bengaluru, Chennai, Mumbai, Delhi, Nashik, Kochi</strong> and more to come in a short while</p>
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 mt-2">
@@ -135,8 +134,8 @@ function Index({ data }) {
                 <div className="w-16 h-16 mb-4">
                   <img alt="modeling" src={modeling} />
                 </div>
-                <p className="text-2xl w-full">Tax Compliance</p>
-                <p>We stay up to date on the latest changes to the tax code.</p>
+                <p className="text-2xl w-full">Value for your penny</p>
+                <p>We offer the best price in the market and no need to worry about hidden charges.</p>
               </div>
             </div>
           </div>
