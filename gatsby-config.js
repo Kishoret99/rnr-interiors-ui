@@ -3,7 +3,8 @@ module.exports = {
     title: `RNR Interiors`,
     description: `RNR Interiors. You dream it... We make it. Experts in end to end quality home interiors and renovations.
     We help you in building your dream house with the help of qualified professionals and experts.`,
-    author: `Kishore`
+    author: `Kishore`,
+    siteUrl: `https://www.rnrinteriors.in`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -49,6 +50,7 @@ module.exports = {
         purgeOnly: ["src/css/style.css"]
       }
     },
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    'gatsby-plugin-sitemap'
   ]
 };

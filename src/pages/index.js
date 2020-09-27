@@ -117,7 +117,7 @@ function Index({ data }) {
                   <img alt="branding" src={branding} />
                 </div>
                 <p className="text-2xl w-full">Certified Professionals</p>
-                <p>All members of our team are certified professionals and experts.</p>
+                <p>All members of our team are certified professionals and experts. Workforce to handle multiple projects at the same time</p>
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 mt-2">
@@ -126,7 +126,7 @@ function Index({ data }) {
                   <img alt="processing" src={processing} />
                 </div>
                 <p className="text-2xl w-full">Serving in</p>
-                <p>Currently we serve in <strong>Hyderabad, Bengaluru, Chennai, Mumbai, Delhi, Nashik, Kochi</strong> and more to come in a short while</p>
+                <p>Currently we serve in <strong>Hyderabad, Bengaluru, Chennai, Mumbai, Pune</strong> and more to come in a short while</p>
               </div>
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3 mt-2">
