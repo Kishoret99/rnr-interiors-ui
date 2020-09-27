@@ -7,6 +7,13 @@ module.exports = {
     siteUrl: `https://www.rnrinteriors.in`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-179078555-1",
+        head: true,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
